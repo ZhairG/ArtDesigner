@@ -1,7 +1,7 @@
 module org.openjfx.artdesigner {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.desktop;
+    requires javafx.swing;
 
 
     opens org.openjfx.artdesigner to javafx.fxml;
